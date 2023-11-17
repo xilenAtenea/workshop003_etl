@@ -1,0 +1,5 @@
+data/
+wenv/
+config_db.json
+__pycache__/
+main/config_db.json
