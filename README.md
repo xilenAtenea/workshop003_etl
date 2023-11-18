@@ -128,8 +128,6 @@ This file includes all the essential dependencies needed for an easier installat
 
 This folder holds the project's essential data, comprising the five mentioned CSV files. Remember to add the relevant files, ensuring they match the characteristics of the datasets used in the project.
 
----
-
 ## References
 
 [1] *Multiple Linear Regression With scikit learn*. (2022, July 9). GeeksforGeeks; GeeksforGeeks. https://www.geeksforgeeks.org/multiple-linear-regression-with-scikit-learn/
