@@ -101,11 +101,11 @@ This folder contains the main components of the project, which contain the proce
 
 The following is a brief description of what is contained in each of the files in this folder:
 
-*EDA.ipynb:* ****This folder holds the step-by-step transformations made to the datasets to create one complete dataset. This combined dataset is used to train and test the model within this file. Once trained, the model is exported as a .pkl file.
+*EDA.ipynb:* This folder holds the step-by-step transformations made to the datasets to create one complete dataset. This combined dataset is used to train and test the model within this file. Once trained, the model is exported as a .pkl file.
 
 *my_model.pkl:* This is the model exported in the EDA.
 
-*feature_selection.ipynb:* ****This folder includes same transformations as the EDA but simplified for feature selection. It also manages the test data set, passing it through a KafkaProducer for data streaming purposes.
+*feature_selection.ipynb:* This folder includes same transformations as the EDA but simplified for feature selection. It also manages the test data set, passing it through a KafkaProducer for data streaming purposes.
 
 *model_prediction.ipynb:* File that receives the data with a kafkaConsumer, imports the model to make the prediction and uses the functions of 'db_queries.py' to load the data to the PostgreSQL database.
 
@@ -113,7 +113,7 @@ The following is a brief description of what is contained in each of the files i
 
 *db_queries.py:* File that contains the database functions (connection to the db, create table and insert data).
 
-*config_db.json:* ****File that must be created as previously shown in the 'Getting Started' part, in my case it was located inside this directory.
+*config_db.json:* File that must be created as previously shown in the 'Getting Started' part, in my case it was located inside this directory.
 
 ### docker-compose.yml
 
