@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the Workshop 003 repository! Here, you'll find the codebase developed for creating an ML model targeting 'happiness_score' prediction. This project integrates a data streaming process, utilizing kafka-python, and includes a database loading mechanism.
+Welcome to the Workshop 003 repository! Here, you'll find the codebase developed for creating an ML model targeting 'happiness_score' prediction. This project integrates a data streaming process, using kafka-python, and includes a database loading mechanism.
 You will find the necessary requirements and some instructions in case you want to run this repository and use it for your main projects. I hope you find it helpful! 
 
 ## Datasets
